@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FirebasAuthExample</string>
+    <string name="email">Email</string>
+    <string name="button_sign_in">Button Sign In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account_click_here">Don\'t have an account? Click here</string>
 </resources>
