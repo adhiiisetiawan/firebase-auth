@@ -4,4 +4,9 @@
     <string name="button_sign_in">Button Sign In</string>
     <string name="sign_in">Sign In</string>
     <string name="don_t_have_an_account_click_here">Don\'t have an account? Click here</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account_click_here">Already have account? Click Here</string>
+    <string name="login_user">Login User</string>
 </resources>

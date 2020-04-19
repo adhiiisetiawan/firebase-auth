@@ -4,27 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SignUpActivity"
     android:layout_margin="16dp">
 
     <TextView
-        android:id="@+id/text_login"
+        android:id="@+id/text_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login_user"
+        android:text="@string/register"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_email"
+        android:id="@+id/text_input_email_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_login"
+        app:layout_constraintTop_toBottomOf="@id/text_register"
         android:hint="@string/email"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -36,14 +36,14 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_password"
+        android:id="@+id/text_input_password_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_input_email"
-        android:hint="Password"
+        app:layout_constraintTop_toBottomOf="@id/text_input_email_register"
+        android:hint="@string/password"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -54,14 +54,14 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_sign_in"
+        android:id="@+id/button_sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_input_password"
+        app:layout_constraintTop_toBottomOf="@id/text_input_password_register"
         android:layout_marginTop="16dp"
-        android:text="@string/sign_in"
+        android:text="@string/sign_up"
         android:textColor="@android:color/white"
         android:contentDescription="@string/button_sign_in"
         style="@style/Widget.MaterialComponents.Button"
@@ -70,13 +70,13 @@
         android:textAppearance="@style/TextAppearance.MaterialComponents.Button"/>
 
     <TextView
-        android:id="@+id/text_dont_have_account"
+        android:id="@+id/text_already_have_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_sign_in"
-        android:text="@string/don_t_have_an_account_click_here"
+        app:layout_constraintTop_toBottomOf="@id/button_sign_up"
+        android:text="@string/already_have_account_click_here"
         android:layout_marginTop="24dp"
         android:gravity="center"
         android:textSize="14sp"/>
