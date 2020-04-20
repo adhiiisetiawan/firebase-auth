@@ -9,4 +9,6 @@
     <string name="sign_up">Sign Up</string>
     <string name="already_have_account_click_here">Already have account? Click Here</string>
     <string name="login_user">Login User</string>
+    <string name="logout">Logout</string>
+    <string name="button_logout">Button Logout</string>
 </resources>
